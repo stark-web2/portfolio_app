@@ -4,7 +4,6 @@ st.set_page_config(page_title="Skills", page_icon="💡")
 
 st.title("💡 Skills Dashboard")
 
-# ===== PROGRAMMING =====
 st.subheader("💻 Programming Skills")
 
 st.write("Python")
@@ -21,7 +20,6 @@ st.progress(90)
 
 st.divider()
 
-# ===== DESIGN =====
 st.subheader("🎨 Design Skills")
 
 st.write("UI/UX Design")
@@ -32,7 +30,6 @@ st.progress(90)
 
 st.divider()
 
-# ===== TOOLS =====
 st.subheader("🛠 Tools")
 st.success("""
 ✔ GitHub  
