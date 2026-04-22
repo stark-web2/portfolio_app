@@ -6,8 +6,6 @@ st.set_page_config(
     page_icon="🔥",
     layout="wide"
 )
-
-# ===== HERO SECTION =====
 col1, col2 = st.columns([2, 1])
 
 with col1:
@@ -21,8 +19,6 @@ Use the navigation menu to discover more about me.
 """)
 
     st.success("🚀 Multipage Streamlit App is running!")
-
-# ===== IMAGE FIX =====
 img_path = Path("assets/my_picture.png")
 
 with col2:
@@ -32,8 +28,6 @@ with col2:
         st.warning("⚠ Image not found! Check 'assets/my_picture.png'")
 
 st.divider()
-
-# ===== FEATURES SECTION =====
 st.subheader("✨ What You’ll Find Here")
 
 colA, colB, colC = st.columns(3)
@@ -57,7 +51,6 @@ with colE:
 
 st.divider()
 
-# ===== CTA SECTION =====
 st.subheader("🚀 Ready to Explore?")
 
 if st.button("Start Exploring"):
