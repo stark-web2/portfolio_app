@@ -2,7 +2,6 @@ import streamlit as st
 
 st.set_page_config(page_title="Home", page_icon="🏠")
 
-# ===== HERO SECTION =====
 col1, col2 = st.columns([1, 2])
 
 with col1:
@@ -15,7 +14,6 @@ with col2:
 
 st.divider()
 
-# ===== HIGHLIGHTS =====
 col1, col2, col3 = st.columns(3)
 
 with col1:
@@ -29,7 +27,6 @@ with col3:
 
 st.divider()
 
-# ===== CTA =====
 st.subheader("🚀 Welcome Message")
 
 if st.button("Explore Portfolio"):
