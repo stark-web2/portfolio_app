@@ -17,7 +17,6 @@ I am a passionate developer who enjoys building systems, websites, and solving r
 
 st.divider()
 
-# ===== EDUCATION =====
 st.subheader("🎓 Education")
 st.write("""
 - BS Computer Science  
@@ -25,7 +24,6 @@ st.write("""
 - UI/UX Design Basics  
 """)
 
-# ===== GOALS =====
 st.subheader("🎯 Goals")
 st.success("""
 - Become a Full Stack Developer  
@@ -34,7 +32,6 @@ st.success("""
 - Work on impactful projects  
 """)
 
-# ===== PERSONAL INFO =====
 st.subheader("📌 Quick Info")
 st.write("📍 Location: Philippines")
 st.write("💼 Role: Student Developer")
